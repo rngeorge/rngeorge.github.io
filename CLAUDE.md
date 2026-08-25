@@ -8,6 +8,15 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 **Read those three before editing anything.** Everything below is Claude-specific or longer-form operational detail that does not belong in the short entry point. Do not restate facts from those files here — link to them.
 
+## This checkout: a personal-site fork, not the upstream starter
+
+This repo is **`rngeorge.github.io`** — a user's own site created from the al-folio template, deployed to `https://rngeorge.github.io`. Two consequences override the inherited (upstream-starter) guidance below and in `AGENTS.md`:
+
+- **Baseurl is root (`baseurl:` is blank in `_config.yml`), not `/al-folio`.** Serve at `http://localhost:4000/` and build with a plain `bundle exec jekyll build`. Ignore every `--baseurl /al-folio` and `http://localhost:4000/al-folio/` reference below — those describe the upstream starter's own deployment.
+- **The "stop sign" does not fully apply here.** AGENTS.md forbids creating `_layouts/`, `_includes/`, `_sass/`, etc. "in this repo" because upstream is a thin starter. A personal site *may legally* shadow gem-owned files to customize appearance — see [local overrides](docs/ARCHITECTURE.md#local-overrides-your-site-vs-this-repo). Prefer configuration and content changes; only shadow a gem file when customization genuinely requires it, and run `bundle exec al-folio upgrade overrides audit` afterward.
+
+Edit content (`_pages`, `_posts`, `_projects`, `_news`, `_books`, `_bibliography`, `_data`) and `_config.yml` for site identity/features. The upstream-oriented CI gates (`lint:style-contract`, visual-regression against a fixed baseline) are inherited and may not all be relevant to a personal deployment.
+
 ## Daily dev loop
 
 ```bash
