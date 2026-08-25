@@ -24,7 +24,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am an AI engineer at [MITRE](https://www.mitre.org/), where I architect AI solutions—spanning large language models, retrieval-augmented generation, and autonomous agents—and apply them to advance research in materials science, chemistry, and laser physics.
+I am an AI engineer at [MITRE](https://www.mitre.org/), where I architect AI solutions spanning large language models, retrieval-augmented generation, and autonomous agents. I have also worked across a range of scientific domains, including materials science, chemistry, and laser physics.
 
 I hold a PhD in physics from [The University of Texas at Austin](https://www.utexas.edu/), where I was a member of the [LIGO Scientific Collaboration](https://www.ligo.org/). My dissertation improved the sensitivity of searches for gravitational waves and for exotic objects.
 
