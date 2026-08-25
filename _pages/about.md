@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: AI Engineer &amp; Physicist, <a href='https://www.mitre.org/'>MITRE</a>. PhD in Physics, The University of Texas at Austin.
+subtitle: AI Engineer &amp; Physicist
 
 profile:
   align: right
@@ -19,13 +19,13 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: false
+  enabled: true
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am an AI engineer and physicist at [MITRE](https://www.mitre.org/), where I apply machine learning and data science to hard scientific and engineering problems.
+I am an AI engineer at [MITRE](https://www.mitre.org/), where I architect AI solutions—spanning large language models, retrieval-augmented generation, and autonomous agents—and apply them to advance research in materials science, chemistry, and laser physics.
 
-I earned my PhD in physics from [The University of Texas at Austin](https://www.utexas.edu/), where I worked with the [LIGO Scientific Collaboration](https://www.ligo.org/) on searches for gravitational waves. My dissertation focused on improving the sensitivity of gravitational-wave searches — better ranking statistics, neural-network parameter estimation, and data-quality methods — and on searches for exotic compact objects such as primordial black holes and boson stars.
+I hold a PhD in physics from [The University of Texas at Austin](https://www.utexas.edu/), where I was a member of the [LIGO Scientific Collaboration](https://www.ligo.org/). My dissertation improved the sensitivity of searches for gravitational waves and for exotic objects.
 
-My work sits at the intersection of physics, machine learning, and large-scale data analysis. A full list of publications is available on [INSPIRE-HEP](https://inspirehep.net/authors/1853385) and [ORCID](https://orcid.org/0000-0002-7797-7683).
+A full list of my publications is available on [INSPIRE-HEP](https://inspirehep.net/authors/1853385) and [ORCID](https://orcid.org/0000-0002-7797-7683).
