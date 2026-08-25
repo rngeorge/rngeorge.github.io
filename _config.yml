@@ -10,7 +10,9 @@ contact_note: >
   Feel free to reach out by email or on LinkedIn.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Richard George — AI engineer and physicist at MITRE. PhD in physics from The University of Texas at Austin, where he searched for gravitational waves with the LIGO Scientific Collaboration.
-footer_text:
+footer_text: >
+  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with the <a href="https://github.com/alshedivat/al-folio" target="_blank">al-folio</a> theme.
+  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 keywords: gravitational waves, LIGO, artificial intelligence, machine learning, physics, data science # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
